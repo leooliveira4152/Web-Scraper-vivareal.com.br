@@ -1,0 +1,634 @@
+Aclimação
+Água Branca
+Água Fria
+Água Funda
+Água Rasa
+Alto da Boa Vista
+Alto da Lapa
+Alto da Mooca
+Alto de Pinheiros
+Americanópolis
+Anália Franco
+Aricanduva
+Artur Alvim
+Balneário Mar Paulista
+Balneário São Francisco
+Barra Funda
+Barro Branco
+Bela Aliança
+Bela Vista
+Belém
+Belenzinho
+Bom Retiro
+Bosque da Saúde
+Brás
+Brasilândia
+Brooklin
+Burgo Paulista
+Butantã
+Cambuci
+Campo Belo
+Campo Grande
+Campo Limpo
+Campos Elíseos
+Cangaíba
+Canindé
+Cantinho do Céu
+Capão da Embira
+Capão Redondo
+Carandiru
+Casa Verde
+Catumbi
+Caxingui
+Centro
+Cerqueira César
+Chácara Belenzinho
+Chácara Califórnia
+Chácara Cruzeiro do Sul
+Chácara do Encosto
+Chácara Flora
+Chácara Inglesa
+Chácara Itaim
+Chácara Klabin
+Chácara Monte Alegre
+Chácara Nossa Senhora Aparecida
+Chácara Santa Maria
+Chácara Santo Antônio
+Chácara Santo Antônio Zona Leste
+Chácara Seis de Outubro
+Cidade Ademar
+Cidade Centenário
+Cidade Domitila
+Cidade Dutra
+Cidade Jardim
+Cidade Júlia
+Cidade Kemel
+Cidade Líder
+Cidade Mãe do Céu
+Cidade Monções
+Cidade Nitro Operária
+Cidade Nova São Miguel
+Cidade Patriarca
+Cidade São Francisco
+Cidade São Mateus
+Cidade Satélite Santa Bárbara
+Cidade Tiradentes
+Cidade Vargas
+City América
+Colônia
+Conjunto Habitacional Instituto Adventista
+Conjunto Habitacional Padre José de Anchieta
+Conjunto Habitacional Padre Manoel da Nóbrega
+Conjunto Promorar Raposo Tavares
+Conjunto Promorar Rio Claro
+Conjunto Residencial Butantã
+Conjunto Residencial Elisio Teixeira Leite
+Conjunto Residencial José Bonifácio
+Conjunto Residencial Vista Verde
+Consolação
+Cursino
+Engenheiro Goulart
+Ermelino Matarazzo
+Fazenda Aricanduva
+Fazenda Morumbi
+Ferreira
+Freguesia do Ó
+Grajaú
+Granja Julieta
+Guaianases
+Guarapiranga
+Higienópolis
+Horto Florestal
+Ibirapuera
+Imirim
+Indianópolis
+Interlagos
+Ipiranga
+Itaberaba
+Itaim Bibi
+Itaim Paulista
+Itaquera
+Jabaquara
+Jaçanã
+Jaguaré
+Jaraguá
+Jardim Adutora
+Jardim Aeroporto
+Jardim Alvorada
+Jardim América
+Jardim América da Penha
+Jardim Ampliação
+Jardim Ana Lúcia
+Jardim Ana Maria
+Jardim Anália Franco
+Jardim Andaraí
+Jardim Ângela
+Jardim Anhangüera
+Jardim Aparecida
+Jardim Aricanduva
+Jardim Arpoador Zona Oeste
+Jardim Avelino
+Jardim Bartira
+Jardim Bela Vista
+Jardim Belém
+Jardim Bélgica
+Jardim Bom Refúgio
+Jardim Bonfiglioli
+Jardim Botucatu
+Jardim Brasil
+Jardim Caboré
+Jardim Cachoeira
+Jardim Camargo Novo
+Jardim Campo Grande
+Jardim Caravelas
+Jardim Casa Grande
+Jardim Catanduva
+Jardim Celeste
+Jardim Célia
+Jardim Cidade Pirituba
+Jardim Coimbra
+Jardim Colombo
+Jardim Colorado
+Jardim Consórcio
+Jardim Cotinha
+Jardim Cruzeiro
+Jardim da Glória
+Jardim da Laranjeira
+Jardim da Pedreira
+Jardim da Saúde
+Jardim das Acácias
+Jardim das Bandeiras
+Jardim das Camélias
+Jardim das Flores
+Jardim das Graças
+Jardim das Laranjeiras
+Jardim das Oliveiras
+Jardim das Pedras
+Jardim das Vertentes
+Jardim do Lago
+Jardim dos Ipês
+Jardim Edi
+Jardim Eledy
+Jardim Esmeralda
+Jardim Ester
+Jardim Europa
+Jardim Everest
+Jardim Felicidade
+Jardim Floresta
+Jardim Fonte do Morumbi
+Jardim Franca
+Jardim Francisco Mendes
+Jardim Gilda Maria
+Jardim Glória
+Jardim Guairaca
+Jardim Guanhembu
+Jardim Guapira
+Jardim Guarani
+Jardim Guarapiranga
+Jardim Guedala
+Jardim Helena
+Jardim Humaitá
+Jardim Ibitirama
+Jardim Iguatemi
+Jardim Ipanema
+Jardim Íris
+Jardim Itacolomi
+Jardim Itapemirim
+Jardim Itapeva
+Jardim Iva
+Jardim Japão
+Jardim Jaraguá
+Jardim Jaú
+Jardim Jua
+Jardim Kika
+Jardim Leonor
+Jardim Leonor Mendes de Barros
+Jardim Líbano
+Jardim Londrina
+Jardim Lourdes
+Jardim Luzitânia
+Jardim Maia
+Jardim Mangalot
+Jardim Maracanã
+Jardim Marajoara
+Jardim Maria Estela
+Jardim Maria Luiza
+Jardim Marília
+Jardim Maringá
+Jardim Maristela
+Jardim Matarazzo
+Jardim Miragaia
+Jardim Miriam
+Jardim Modelo
+Jardim Monjolo
+Jardim Monte Belo
+Jardim Monte Belo Raposo Tavares
+Jardim Monte Kemel
+Jardim Monte Verde
+Jardim Morumbi
+Jardim Nair
+Jardim Nice
+Jardim Norma
+Jardim Nossa Senhora do Carmo
+Jardim Novo Carrão
+Jardim Novo Parelheiros
+Jardim Odete
+Jardim Oriental
+Jardim Panorama
+Jardim Paraná
+Jardim Parque Morumbi
+Jardim Patente
+Jardim Paulista
+Jardim Paulistano
+Jardim Paulo VI
+Jardim Pedra Branca
+Jardim Pedreira
+Jardim Pedro José Nunes
+Jardim Penha
+Jardim Pereira Leite
+Jardim Peri
+Jardim Peri Peri
+Jardim Petrópolis
+Jardim Pinheiros
+Jardim Piratininga
+Jardim Planalto
+Jardim Popular
+Jardim Prainha
+Jardim Primavera
+Jardim Promissão
+Jardim Prudência
+Jardim Regina
+Jardim Regis
+Jardim Rincão
+Jardim Rizzo
+Jardim Robru
+Jardim Rodolfo Pirani
+Jardim Rosana
+Jardim Samara
+Jardim Santa Emília
+Jardim Santa Helena
+Jardim Santa Lucrécia
+Jardim Santa Maria
+Jardim Santa Terezinha
+Jardim Santo Antônio
+Jardim Santo Elias
+Jardim São Bento
+Jardim São Bernardo
+Jardim São Cristóvão
+Jardim São Francisco
+Jardim São Gabriel
+Jardim São Jorge
+Jardim São Luis
+Jardim São Manoel
+Jardim São Paulo
+Jardim São Rafael
+Jardim Sul São Paulo
+Jardim São Pedro
+Jardim São Roberto
+Jardim São Vicente
+Jardim Sapopemba
+Jardim Shangrilá
+Jardim Soares
+Jardim Sônia Regina
+Jardim Soraia
+Jardim Suzana
+Jardim Taboão
+Jardim Taquaral
+Jardim Teresa
+Jardim Têxtil
+Jardim Três Marias
+Jardim Triana
+Jardim Ubirajara
+Jardim Umarizal
+Jardim Umuarama
+Jardim Universidade Pinheiros
+Jardim Vazani
+Jardim Vergueiro
+Jardim Vila Carrão
+Jardim Vila Formosa
+Jardim Vila Mariana
+Jardim Vila Rica
+Jardim Virginia
+Jardim Vitória Régia
+Jardins
+Jurubatuba
+Lajeado
+Lapa
+Lapa de Baixo
+Largo Sacomã
+Lauzane Paulista
+Liberdade
+Limão
+Limoeiro
+Luz
+M'Boi Mirim
+Mandaqui
+Maranhão
+Mariana
+Mirandópolis
+Moema
+Moinho Velho
+Mooca
+Morro dos Ingleses
+Morumbi
+Nossa Senhora do Ó
+Nova Piraju
+Núcleo do Engordador
+Pacaembu
+Paineiras do Morumbi
+Parada de Taipas
+Parada Inglesa
+Paraíso
+Paraíso do Morumbi
+Paraisópolis
+Parelheiros
+Pari
+Parque América
+Parque Anhembi
+Parque Artur Alvim
+Parque Atlântico
+Parque Boa Esperança
+Parque Boturussu
+Parque Brasil
+Parque Bristol
+Parque Císper
+Parque Colonial
+Parque Continental
+Parque da Mooca
+Parque da Vila Prudente
+Parque das Flores
+Parque das Paineiras
+Parque do Carmo
+Parque do Castelo
+Parque do Lago
+Parque do Morumbi
+Parque Doroteia
+Parque Edu Chaves
+Parque Fongaro
+Parque Guarani
+Parque Ibirapuera
+Parque Imperial
+Parque Industrial Tomas Edson
+Parque Ipê
+Parque Luis Mucciolo
+Parque Mandaqui
+Parque Maria Domitila
+Parque Maria Helena
+Parque Maria Luiza
+Parque Nações Unidas
+Parque Novo Mundo
+Parque Paulistano
+Parque Peruche
+Parque Regina
+Parque Residencial Cocaia
+Parque Residencial da Lapa
+Parque Residencial dos Lagos
+Parque Residencial Julia
+Parque Residencial Oratorio
+Parque Santa Amélia
+Parque Santa Madalena
+Parque Santo Antônio
+Parque São Domingos
+Parque São Jorge
+Parque São Lourenço
+Parque São Lucas
+Parque São Luís
+Parque São Rafael
+Parque São Silvestre
+Parque Sevilha
+Parque Taipas
+Parque Tietê
+Parque Tomas Saraiva
+Parque Vitória
+Pedreira
+Penha
+Penha de França
+Perdizes
+Perus
+Pinheiros
+Piqueri
+Pirajussara
+Pirituba
+Planalto Paulista
+Pompeia
+Ponte Rasa
+Quarta Parada
+Quinta da Paineira
+Raposo Tavares
+Real Parque
+Recanto Paraíso
+República
+Retiro Morumbi
+Rio Bonito
+Rio Pequeno
+Rolinópolis
+Sacomã
+Santa Cecília
+Santa Efigênia
+Santa Teresinha
+Santana
+Santo Amaro
+São Domingos
+São João Clímaco
+São Lucas
+São Mateus
+São Miguel Paulista
+Sapopemba
+Saúde
+Sé
+Siciliano
+Sítio do Mandaqui
+Sítio do Piqueri
+Sítio Pinheirinho
+Socorro
+Sumaré
+Sumarezinho
+Super Quadra Morumbi
+Tatuapé
+Tremembé
+Tucuruvi
+Várzea da Barra Funda
+Várzea de Baixo
+Veleiros
+Vila Albano
+Vila Albertina
+Vila Alexandria
+Vila Almeida
+Vila Alpina
+Vila Amélia
+Vila Americana
+Vila Anastácio
+Vila Andrade
+Vila Anglo Brasileira
+Vila Anhangüera
+Vila Antonieta
+Vila Antonina
+Vila Antônio
+Vila Arcádia
+Vila Aricanduva
+Vila Azevedo
+Vila Bancária
+Vila Barbosa
+Vila Baruel
+Vila Basileia
+Vila Beatriz
+Vila Bela
+Vila Bertioga
+Vila Brasilina
+Vila Buarque
+Vila Califórnia
+Vila Campanela
+Vila Campo Grande
+Vila Carioca
+Vila Carmosina
+Vila Carrão
+Vila Cavaton
+Vila Centenário
+Vila Chica Luisa
+Vila Cláudia
+Vila Clementino
+Vila Cleonice
+Vila Conceição
+Vila Congonhas
+Vila Constança
+Vila Cordeiro
+Vila Cruzeiro
+Vila Curuçá
+Vila da Saúde
+Vila Dalila
+Vila Darli
+Vila Deodoro
+Vila Diva
+Vila do Encontro
+Vila do Sol
+Vila Dom Pedro I
+Vila Dom Pedro II
+Vila dos Remédios
+Vila Ema
+Vila Emir
+Vila Esperança
+Vila Ester
+Vila Fanton
+Vila Feliz
+Vila Firmiano Pinto
+Vila Formosa
+Vila Franca
+Vila Gea
+Vila Gertrudes
+Vila Gomes
+Vila Gomes Cardim
+Vila Graciosa
+Vila Guarani
+Vila Guilherme
+Vila Guilhermina
+Vila Gumercindo
+Vila Gustavo
+Vila Hamburguesa
+Vila Heliópolis
+Vila Hortência
+Vila Ida
+Vila Inah
+Vila Independência
+Vila Indiana
+Vila Industrial
+Vila Inglesa
+Vila Ipojuca
+Vila Jacuí
+Vila Jaguara
+Vila Jaraguá
+Vila Joaniza
+Vila Lageado
+Vila Leonor
+Vila Leopoldina
+Vila Lúcia
+Vila Madalena
+Vila Mafra
+Vila Marari
+Vila Maria
+Vila Maria Alta
+Vila Maria Baixa
+Vila Maria Zélia
+Vila Mariana
+Vila Marieta
+Vila Marina
+Vila Mascote
+Vila Matilde
+Vila Mazzei
+Vila Medeiros
+Vila Mendes
+Vila Miriam
+Vila Missionária
+Vila Moinho Velho
+Vila Monte Alegre
+Vila Monumento
+Vila Moraes
+Vila Moreira
+Vila Morse
+Vila Morumbi
+Vila Nair
+Vila Nancy
+Vila Natália
+Vila Nhocune
+Vila Nivi
+Vila Norma
+Vila Nova Cachoeirinha
+Vila Nova Conceição
+Vila Nova Curuçá
+Vila Nova Manchester
+Vila Nova Mazzei
+Vila Nova Savoia
+Vila Nova União
+Vila Olímpia
+Vila Oratório
+Vila Paiva
+Vila Palmeiras
+Vila Paranaguá
+Vila Paulicéia
+Vila Paulo Silas
+Vila Pereira Barreto
+Vila Pereira Cerca
+Vila Perus
+Vila Pierina
+Vila Pirajussara
+Vila Polopoli
+Vila Pompeia
+Vila Ponte Rasa
+Vila Primavera
+Vila Progredior
+Vila Prudente
+Vila Ré
+Vila Regente Feijó
+Vila Ribeiro de Barros
+Vila Romana
+Vila Rubi
+Vila Sabrina
+Vila Salete
+Vila Santa Catarina
+Vila Santa Cruz
+Vila Santa Eulalia
+Vila Santa Teresa
+Vila Santa Terezinha Zona Norte
+Vila Santana
+Vila Santo Antônio
+Vila Santo Estéfano
+Vila Santo Estevão
+Vila Santo Henrique
+Vila São Francisco
+Vila São Geraldo
+Vila São José Ipiranga
+Vila São Nicolau
+Vila Siqueira
+Vila Socorro
+Vila Sofia
+Vila Sônia
+Vila Souza
+Vila Suzana
+Vila Talarico
+Vila Tramontano
+Vila Uberabinha
+Vila União
+Vila Vera
+Vila Vermelha
+Vila Vitório Mazzei
+Vila Zelina
+Vila Zilda
