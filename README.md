@@ -6,18 +6,19 @@ Este web scraper é para coleta de dados do site vivareal.com.br, um site para a
 
 O código só funciona em versões específicas do Google Chrome (81, 83 e 84) e só pôde ser testado no Windows 10; as instruções são para esse sistema. Para conferir sua versão do Chrome, abra-o, clique em Ajuda > Sobre o Google Chrome.
 
-### Programas necessários
 
-## Executável (main.exe):
-Nenhum programa necessário.
+## Programas necessários
+### Executável (main.exe):
+- Nenhum programa necessário.
 
-- Arquivo em python (main.py):
-Python, versão 3.7 ou superior;
-pip
-selenium (pip install selenium);
-bs4 (pip install bs4);
-html5lib (pip install html5lib);
-psutil (pip install psutil)
+### Arquivo em python (main.py):
+- Python, versão 3.7 ou superior;
+- pip
+- selenium (pip install selenium);
+- bs4 (pip install bs4);
+- html5lib (pip install html5lib);
+- psutil (pip install psutil)
+
 
 ### Como utilizar
 
@@ -32,6 +33,7 @@ Antes de começar a utilizar o webscraper, configura as configurações (apertan
 Quando estiver pronto, acesse a opção referente a consultar imóveis (apertando 1 na tela inicial). A lista de bairros a ser exibida pode ser modificada nas opções.
 Ao digitar o bairro/ID, o programa abrirá um processo do Google Chrome e vai maximizá-lo; para estabilidade do programa, minimize a janela do Chrome que foi aberta e evite mexer nela.
 Os resultados serão exibidos na tela e em um arquivo .json criado na pasta onde estava o programa (.exe ou .py).
+
 
 ### Sobre os pacotes
 
