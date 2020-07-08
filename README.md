@@ -7,9 +7,6 @@ O código só funciona em versões específicas do Google Chrome (81, 83 e 84) e
 
 
 ## Programas necessários
-### Executável (main.exe):
-- Nenhum programa adicional necessário.
-
 ### Arquivo em python (main.py):
 - Python, versão 3.7 ou superior;
 - pip
@@ -20,9 +17,6 @@ O código só funciona em versões específicas do Google Chrome (81, 83 e 84) e
 
 
 ## Como utilizar
-### Caso queira executar o arquivo executável:
-- Acesse a pasta dist/main e execute o arquivo main.exe
-### Caso queira executar o arquivo em python, há alguns pré-requisitos:
 - Primeiramente baixe o Python em versão 3.7 ou superior. Caso queira um link: https://www.python.org/ftp/python/3.8.3/python-3.8.3.exe
 - Ao instalar o Python, se certifique que a opção "add Python x.x to PATH" está marcada
 - Com o Python devidamente instalado, clique com o botão direito no arquivo "install" (está na raiz da pasta do projeto) e selecione a opção "Executar com o Power Shell"
