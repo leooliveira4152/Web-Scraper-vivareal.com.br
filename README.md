@@ -34,7 +34,18 @@ O código só funciona em versões específicas do Google Chrome (81, 83 e 84) e
 - html5lib interpreta e formata o código-fonte para ser interpretado.
 
 ## Observações
+- A mensagem sobre bluetooth não é um erro, é uma mensagem do próprio selenium ao inicializar o webdriver.
+
+- Caso a pesquisa seja muito extensa, o chrome será reinicializado a cada 50 páginas para liberar espaço na memória e evitar que o computador fique mais lento do que o necessário.
+
+- Se o programa estiver encontrando erros frequentes ao pesquisar o bairro, aumente a constante de carregamento, pois é provável que seja algum problema na capacidade de processamento do computador do usuário e/ou instabilidade na internet.
+
 - Uma das peculiaridades do site é que, apesar de ser possível fazer a pesquisa de primeira página de resultados de um bairro utilizando apenas manipulação de url, não é possível utilizar o mesmo método para trocar de página; ao digitar a url referente a página seguinte, o site redirecionará para a primeira página da pesquisa. A única forma que encontrei de conseguir acessar a url de uma página é acessando ela diretamente ao abrir o chrome (que é o que é usado, por exemplo, a cada 50 páginas ao fechar o browser para liberar memória). O único lado possivelmente ruim é que isso nos impossibilita de "esconder" o Chrome para que ele rode apenas em segundo plano, já que o código requer que o sistema efetue cliques, o que não é possível caso o Chrome não esteja em uma "zona clicável"; apesar dos pesares, é um problema apenas estético, a não ser que o usuário tente fazer algum tipo de ação no Chrome, algo que pode ser evitado minimizando o browser.
   
 - A maneira do programa detectar seu fim é ao não conseguir clicar na próxima página, o que obviamente gera um erro. Esse erro, porém, também pode ser gerado caso seja feita uma consulta para uma quantidade muito grande de dados (segundo testes, esse erro acontece aproximadamente a partir de 9000 resultados) ou caso a página não tenha sido completamente carregada. O erro da página não carregada é simples de evitar gerando um outro request de click dentro do except, caso consiga, sabemos que a página carregou e que há páginas seguintes, então o programa continua, caso não, temos o possível erro de memória. Esse último erro é analisado a partir da barra de progresso, se ela estiver no 100%, significa que todas as páginas foram lidas e que de fato não há uma próxima página; se ela não estiver no 100%, então significa que houve um problema causado por alguma ação do usuário, da instabilidade de sua internet ou um problema de memória do próprio selenium. Como esses dois últimos problemas podem ter sido causados no fim de uma pesquisa muito demorada, optei por gerar um arquivo com os resultados parciais, o que faz com que o programa siga normalmente.
 
+- Se o programa estiver encontrando erros frequentes ao pesquisar o bairro, aumente a constante de carregamento, pois é provável que seja algum problema na capacidade de processamento do computador do usuário e/ou instabilidade na internet.
+
+- chrome fecha 50
+
+-erro bluetoo
