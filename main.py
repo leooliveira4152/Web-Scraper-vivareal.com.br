@@ -149,20 +149,29 @@ def main():
             input('Pressione enter para sair.')
             exit()
 
-    try:
-        driver.get("https://www.vivareal.com.br/aluguel")  # Entra no site da vivareal com o Chrome gerado
-        time.sleep(1 + cfg[5])  # Os timers são postos em muitas situações a partir daqui pois, caso o programa tente fazer
-        # leituras em partes do site que ainda não foram carregadas, isso pode resultar em erros; para garantir a estabili-
-        # dade, os timers foram inseridos, de forma com que o site possa ser carregado antes de qualquer coisa.
-        inputbairro = driver.find_element_by_id('filter-location-search-input')  # Encontra o campo para digitar o bairro
-        inputbairro.send_keys(bairro)  # Insere o conteúdo da variável "bairro" no campo em questão
-        time.sleep(2 + cfg[5])
-        driver.find_element_by_id('filter-location-search-input').send_keys(Keys.RETURN)  # Confirma a pesquisa do bairro
-        time.sleep(3 + cfg[5])
-    except Exception as e:
-        print('Ocorreu um erro na inserção do bairro no sistema. Tente novamente.')
-        print('Pressione enter para encerrar o programa.')
-        exit()
+    driver.get("https://www.vivareal.com.br/aluguel")  # Entra no site da vivareal com o Chrome
+    time.sleep(1 + cfg[5])  # Os timers são postos em muitas situações a partir daqui pois, caso o programa tente fazer
+    # leituras em partes do site que ainda não foram carregadas, isso pode resultar em erros; para garantir a estabili-
+    # dade, os timers foram inseridos, de forma com que o site possa ser carregado antes de qualquer coisa.
+
+    i2=1
+    while i2<4:  # Caso haja problemas de conexão ou na hora de abrir o Chrome, é comum o programa ter problemas nessa
+        # parte; então vale atribuir três tentativas por precaução
+        try:
+            inputbairro = driver.find_element_by_id('filter-location-search-input')  # Encontra o campo para digitar o bairro
+            inputbairro.send_keys(bairro)  # Insere o conteúdo da variável "bairro" no campo em questão
+            time.sleep(2 + cfg[5])
+            driver.find_element_by_id('filter-location-search-input').send_keys(Keys.RETURN)  # Confirma a pesquisa do bairro
+            time.sleep(3 + cfg[5])
+            i2=4
+        except Exception as e:
+            if i2==3:
+                print('Ocorreu um erro na inserção do bairro no sistema. Tente novamente.')
+                print('Pressione enter para encerrar o programa.')
+                exit()
+            else:
+                print('Houve um erro na inserção do bairro. Tentativa',i2+1)
+                print('Reabrindo o navegador, por favor aguarde.')
 
     clear()
 
