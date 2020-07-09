@@ -184,7 +184,7 @@ def main():
         exit()
     if total_resultados > 2000:  # Para pesquisas com um alto número de resultados, o consumo de memória do selenium é bem alto
         print(
-            'Atenção! Como o número de resultados para essa consulta é maior do que 2000, o segmento do endereço'
+            'Atenção! Como o número de resultados para essa consulta é maior do que 2000, o segmento do endereço '
             'especificando "São Paulo - SP" será removido do endereço para evitar problemas de memória.')
         print(total_resultados,
               'resultados encontrados. A consulta pode demorar um pouco devido ao alto volume de dados.')
