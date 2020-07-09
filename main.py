@@ -148,6 +148,10 @@ def main():
             print('O driver utilizado se refere a versão', cfg[1], 'do Chrome, cheque o README.md para informações.')
             input('Pressione enter para sair.')
             exit()
+    else:
+        print('Driver do Chrome não encontrado, cheque a pasta raiz do programa e o README.md para mais informações.')
+        input('Pressione enter para encerrar o programa.')
+        exit()
 
     driver.get("https://www.vivareal.com.br/aluguel")  # Entra no site da vivareal com o Chrome
     time.sleep(2 + cfg[5])  # Os timers são postos em muitas situações a partir daqui pois, caso o programa tente fazer
@@ -157,11 +161,12 @@ def main():
     i2=1
     inputbairro = driver.find_element_by_id('filter-location-search-input')  # Encontra o campo para digitar o bairro
     inputbairro.send_keys(bairro)  # Insere o conteúdo da variável "bairro" no campo em questão
+    #inputbairro.send_keys('asdasdasdasdasd')
 
     while i2<4:  # Caso haja problemas de conexão ou na hora de abrir o Chrome, é comum o programa ter problemas nessa
         # parte; então vale atribuir três tentativas por precaução
         try:
-            time.sleep(2 + cfg[5])
+            time.sleep(3 + cfg[5])
             driver.find_element_by_id('filter-location-search-input').send_keys(Keys.RETURN)  # Confirma a pesquisa do bairro
             time.sleep(3 + cfg[5])
             content = driver.page_source
@@ -178,10 +183,7 @@ def main():
                 exit()
             else:
                 print('Houve um erro na inserção do bairro. Tentativa',i2+1)
-                print('Reabrindo o navegador, por favor aguarde.')
                 i2=i2+1
-
-    clear()
 
     i3=1
     while total_resultados > 500000:
@@ -192,11 +194,15 @@ def main():
             total_resultados = soup.find('strong', attrs={'class': 'results-summary__count js-total-records'})
             total_resultados = total_resultados.text
             total_resultados = int("".join(filter(str.isdigit, total_resultados)))
+            print('5555555')
             i3=i3+1
-        if i3==3 and total_resultados > 500000:
+        if i3==4 and total_resultados > 500000:
+            clear()
             print('Houve um problema ao inserir o bairro desejado no site. Tente novamente.')
             input('Pressione enter para encerrar o programa.')
             exit()
+
+    clear()
     if total_resultados > 2000:  # Para pesquisas com um alto número de resultados, o consumo de memória do selenium é bem alto
         print(
             'Atenção! Como o número de resultados para essa consulta é maior do que 2000, o segmento do endereço '
