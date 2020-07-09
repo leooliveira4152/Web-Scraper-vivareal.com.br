@@ -26,7 +26,7 @@ O código só funciona em versões específicas do Google Chrome (81, 83 e 84) e
 - Antes de começar a utilizar o webscraper, configura as configurações (apertando 2) para personalizá-lo; entre em cada opção para compreender melhor suas funções.
 - Quando estiver pronto, acesse a opção referente a consultar imóveis (apertando 1 na tela inicial). A lista de bairros a ser exibida pode ser modificada nas opções.
 - Ao digitar o bairro/ID, o programa abrirá um processo do Google Chrome e vai maximizá-lo; para estabilidade do programa, minimize a janela do Chrome que foi aberta e evite mexer nela.
-- Os resultados serão exibidos na tela e em um arquivo .json criado na pasta onde estava o programa (.exe ou .py).
+- Os resultados serão exibidos na tela e em um arquivo .json criado na raiz do projeto.
 
 
 ## Sobre os pacotes
