@@ -150,16 +150,17 @@ def main():
             exit()
 
     driver.get("https://www.vivareal.com.br/aluguel")  # Entra no site da vivareal com o Chrome
-    time.sleep(1 + cfg[5])  # Os timers são postos em muitas situações a partir daqui pois, caso o programa tente fazer
+    time.sleep(2 + cfg[5])  # Os timers são postos em muitas situações a partir daqui pois, caso o programa tente fazer
     # leituras em partes do site que ainda não foram carregadas, isso pode resultar em erros; para garantir a estabili-
     # dade, os timers foram inseridos, de forma com que o site possa ser carregado antes de qualquer coisa.
 
     i2=1
+    inputbairro = driver.find_element_by_id('filter-location-search-input')  # Encontra o campo para digitar o bairro
+    inputbairro.send_keys(bairro)  # Insere o conteúdo da variável "bairro" no campo em questão
+
     while i2<4:  # Caso haja problemas de conexão ou na hora de abrir o Chrome, é comum o programa ter problemas nessa
         # parte; então vale atribuir três tentativas por precaução
         try:
-            inputbairro = driver.find_element_by_id('filter-location-search-input')  # Encontra o campo para digitar o bairro
-            inputbairro.send_keys(bairro)  # Insere o conteúdo da variável "bairro" no campo em questão
             time.sleep(2 + cfg[5])
             driver.find_element_by_id('filter-location-search-input').send_keys(Keys.RETURN)  # Confirma a pesquisa do bairro
             time.sleep(3 + cfg[5])
@@ -178,6 +179,7 @@ def main():
             else:
                 print('Houve um erro na inserção do bairro. Tentativa',i2+1)
                 print('Reabrindo o navegador, por favor aguarde.')
+                i2=i2+1
 
     clear()
 
@@ -190,7 +192,8 @@ def main():
             total_resultados = soup.find('strong', attrs={'class': 'results-summary__count js-total-records'})
             total_resultados = total_resultados.text
             total_resultados = int("".join(filter(str.isdigit, total_resultados)))
-        if total_resultados > 500000:
+            i3=i3+1
+        if i3==3 and total_resultados > 500000:
             print('Houve um problema ao inserir o bairro desejado no site. Tente novamente.')
             input('Pressione enter para encerrar o programa.')
             exit()
