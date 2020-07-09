@@ -4,7 +4,7 @@ Um web scraper é um método de extração de dados de websites de maneira autom
 
 Este web scraper é utilizado para coleta de dados do site vivareal.com.br, um site para anúncios de venda e aluguel de imóveis. A versão utilizada é específica para aluguel de imóveis em São Paulo - SP, mas o código pode ser alterado de maneira relativamente simples tanto para realizar consultas de imóveis a venda quanto para realizar buscas em outras cidades.
 
-O código só funciona em versões específicas do Google Chrome (81, 83 e 84) e só pôde ser testado no Windows 10; as instruções são para esse sistema. Para conferir sua versão do Chrome, abra-o, clique em Ajuda > Sobre o Google Chrome.
+O código só funciona em versões específicas do Google Chrome (81, 83 e 84) e só pôde ser testado no Windows 10; as instruções são para esse sistema. Para conferir sua versão do Chrome, abra-o, clique em Ajuda > Sobre o Google Chrome; o programa tem como padrão a configuração para a versão 83, caso sua versão seja a 81 ou 84, entre nas configurações dentro do programa e altere a referente a isso.
 
 
 ## Programas necessários
