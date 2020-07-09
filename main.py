@@ -163,6 +163,12 @@ def main():
             time.sleep(2 + cfg[5])
             driver.find_element_by_id('filter-location-search-input').send_keys(Keys.RETURN)  # Confirma a pesquisa do bairro
             time.sleep(3 + cfg[5])
+            content = driver.page_source
+            print('Pesquisando por imóveis a serem alugados em ', bairro.replace('São Paulo', ''), sep='')
+            soup = BeautifulSoup(content, features='html5lib')
+            total_resultados = soup.find('strong', attrs={'class': 'results-summary__count js-total-records'})
+            total_resultados = total_resultados.text
+            total_resultados = int("".join(filter(str.isdigit, total_resultados)))
             i2=4
         except Exception as e:
             if i2==3:
@@ -174,18 +180,6 @@ def main():
                 print('Reabrindo o navegador, por favor aguarde.')
 
     clear()
-
-    try:  # Faz a leitura do código-fonte da página
-        content = driver.page_source
-        print('Pesquisando por imóveis a serem alugados em ', bairro.replace('São Paulo', ''), sep='')
-        soup = BeautifulSoup(content, features='html5lib')
-        total_resultados = soup.find('strong', attrs={'class': 'results-summary__count js-total-records'})
-        total_resultados = total_resultados.text
-        total_resultados = int("".join(filter(str.isdigit, total_resultados)))
-    except Exception as e:
-        print('Houve um problema ao inserir o bairro desejado no site. Tente novamente.')
-        print('Pressione enter para encerrar o programa.')
-        exit()
 
     if total_resultados > 500000:
         print('Houve um problema ao inserir o bairro desejado no site. Tente novamente.')
