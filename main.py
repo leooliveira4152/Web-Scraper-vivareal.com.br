@@ -178,6 +178,7 @@ def main():
             else:
                 print('Houve um erro na inserção do bairro. Tentativa',i2+1)
                 print('Reabrindo o navegador, por favor aguarde.')
+                i2=i2+1
 
     clear()
 
