@@ -181,10 +181,19 @@ def main():
 
     clear()
 
-    if total_resultados > 500000:
-        print('Houve um problema ao inserir o bairro desejado no site. Tente novamente.')
-        input('Pressione enter para encerrar o programa.')
-        exit()
+    i3=1
+    while total_resultados > 500000:
+        while i3<4:  # Novamente, caso o usuário tenha problemas de conexão ou de processamento, a  de inserir bairro é a mais
+            # comum de gerar erros, então é melhor testar três vezes
+            driver.find_element_by_id('filter-location-search-input').send_keys(Keys.RETURN)
+            soup = BeautifulSoup(content, features='html5lib')
+            total_resultados = soup.find('strong', attrs={'class': 'results-summary__count js-total-records'})
+            total_resultados = total_resultados.text
+            total_resultados = int("".join(filter(str.isdigit, total_resultados)))
+        if total_resultados > 500000:
+            print('Houve um problema ao inserir o bairro desejado no site. Tente novamente.')
+            input('Pressione enter para encerrar o programa.')
+            exit()
     if total_resultados > 2000:  # Para pesquisas com um alto número de resultados, o consumo de memória do selenium é bem alto
         print(
             'Atenção! Como o número de resultados para essa consulta é maior do que 2000, o segmento do endereço '
