@@ -191,7 +191,8 @@ def main():
             total_resultados = soup.find('strong', attrs={'class': 'results-summary__count js-total-records'})
             total_resultados = total_resultados.text
             total_resultados = int("".join(filter(str.isdigit, total_resultados)))
-        if total_resultados > 500000:
+            i3=i3+1
+        if i3==3 and total_resultados > 500000:
             print('Houve um problema ao inserir o bairro desejado no site. Tente novamente.')
             input('Pressione enter para encerrar o programa.')
             exit()
